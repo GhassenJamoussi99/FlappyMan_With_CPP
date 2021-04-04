@@ -8,4 +8,4 @@ Simple flappyMan game created with windows library and C++
 ## Usage 
 Download the project and add the header/source to a Microsoft Visual Studio project . 
 
-Hotkeys : 'Space' to jump
+Hotkeys : Press 'Space' to jump
