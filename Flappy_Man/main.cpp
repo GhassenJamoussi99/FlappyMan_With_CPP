@@ -101,7 +101,7 @@ protected:
 			}
 
 			Fill(0, 0, ScreenWidth(), ScreenHeight(), L' ');
-			//Log << "fLevelPosition aprés " << fLevelPosition << std::endl;
+			//Log << "fLevelPosition aprï¿½s " << fLevelPosition << std::endl;
 			int nSection = 0;
 			for (auto s : listSection)
 			{
@@ -157,7 +157,7 @@ protected:
 			//Draw Man
 			if (fManVelocity > 0) // Man falling
 			{
-				DrawString(nManX, fManPosition + 0, L"\ /");
+				DrawString(nManX, fManPosition + 0, L" U");
 				DrawString(nManX, fManPosition + 1, L"-|-");
 				DrawString(nManX, fManPosition + 2, L" @ ");
 			}
